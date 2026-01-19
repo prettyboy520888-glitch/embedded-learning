@@ -53,3 +53,27 @@ dkms.conf
 
 # debug information files
 *.dwo
+# ========== Keil uVision (C51/ARM) build artifacts ==========
+**/Objects/
+**/Listings/
+
+*.obj
+*.o
+*.d
+*.crf
+*.lst
+*.m51
+*.map
+*.hex
+*.bin
+*.axf
+*.elf
+
+*.lnp
+*.htm
+*.build_log.htm
+
+# uVision user-specific files (frequently changing)
+*.uvgui*
+*.uvopt*
+
